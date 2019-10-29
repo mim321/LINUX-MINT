@@ -29,4 +29,4 @@
 
 ### [Visit Linux Mint](https://distrowatch.com/table.php?distribution=mint) 
 
-![Image](http://mim321.github.io/image-LINUX-MINT/mint1.png)
+![Image](http://mim321.github.io/LINUX-MINT/mint1.png)

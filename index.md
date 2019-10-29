@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# LINUX MINT + OFFICE
+* จุดประสงค์ของลินุกซ์มิ้นท์คือการผลิตระบบปฏิบัติการที่ทันสมัยและสะดวกต่อการใช้งาน ซึ่งมีประสิทธิภาพและใช้งานง่าย
+* จากการเริ่มต้นในปี 2006, ขณะนี้ Linux Mint เป็นระบบที่ 4 ที่ใช้กันอย่างแพร่หลายรองจากระบบปฏิบัติการ Microsoft Windows, Apple Mac OS และ Ubuntu
+* เหตุผลสำหรับความสำเร็จของลินุกซ์มิ้นท์คือ
+ลีนุกซ์มิ้นทำงานด้วยการสนับสนุนมัลติมีเดียเต็มรูปแบบและใช้งานง่ายไม่เสียค่าใช้จ่ายและเปิดเผยแหล่งที่มา
+มีชุมชนที่ขับเคลื่อนในหลายประเทศ ผู้ใช้งานสามารถส่งความคิดเห็นเพื่อนำไปพัฒนาลีนกซ์มิ้นต์
+พัฒนาจาก Debian และ Ubuntu ซึ่งมีซอฟแวร์กว่า 30,000 ชุด ให้เลือกใช้งาน
+ปลอดภัยและเชื่อถือได้ มีระบบพัฒนาอยู่เสมอ และมีความทนทานของสถาปัตยกรรมของลินุกซ์, ลินุกซ์มิ้นท์ต้องการการบำรุงรักษาเพียงเล็กน้อยน้อย (ไม่มีไวรัส สปายแวร์ ฯลฯ )
 
-You can use the [editor on GitHub](https://github.com/mim321/image-LINUX-MINT/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+###  วิธีติดตั้ง Linux Mint ร่วมกับ Windows 10 
+<span style = color : blue> แม้ว่า Linux Mint จะเป็นระบบปฏิบัติการฟรี ที่มีประสิทธิภาพและใช้งานง่ายในระดับหนึ่ง แต่หากจะใช้เพื่อทำงานติดต่อกับหน่วยงานอื่น ๆ ก็อาจเกิดความติดขัดบ้าง  หลายคนจึงต้องการที่จะใช้ Linux Mint  ควบคู่ไปกับ MS Windows  ทางออกก็คือติดตั้งทั้ง Linux Mint และ MS Windows ไว้ในคอมพิวเตอร์เครื่องเดียวกัน  หากต้องการจะใช้ระบบไหน ก็เลือกเอาตอนบูท  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+ วิธีดังกล่าว มักจะเรียกกันว่า ทำเป็น Dual Boot หรือ Multi Boot    Linux Mint เรียกการติดตั้งลีนุกซ์บนเครื่องที่มีวินโดวส์อยู่แล้วว่า เป็นการติดตั้งแบบ Alongside Windows  เมื่อติดตั้งเสร็จเรียบร้อย เปิดคอมพิวเตอร์ จะมีให้เลือกว่าจะใช้งานลีนุกซ์หรือวินโดวส์  ในบทความนี้จะกล่าวถึงการติดตั้ง Linux Mint MATE 64-bit บนเครื่องคอมพิวเตอร์ที่มี MS Windows 10 อยู่แล้ว </span> 
 
-### Markdown
+###### วิธีทำ
+1. เตรียมคอมพิวเตอร์ (ที่ติดตั้ง MS Windows 10 ไว้เรียบร้อยแล้ว)
+2. เตรียม Linux Mint USB Stick (อ่านวิธีดาวน์โหลดและสร้างตัวติดตั้งที่นี่)
+3. บูทคอมพิวเตอร์ที่มี MS Windows 10 ด้วย USB Stick แล้วเลือก Start Linux Mint 19 MATE 64-bit
+4. เมื่อโหลดเข้าสู่หน้าเดสก์ท๊อป ให้ดับเบิ้ลคลิ๊กที่คำว่า Install Linux Mint
+5. เลือกภาษาในการติดตั้ง แนะนำเป็นภาษาอังกฤษ
+6. เลือก Keyboard Layout แนะนำให้เลือก English (US)
+7. Install third-party software จะเลือกก็ได้ ไม่เลือกก็ได้
+8. เลือก Install Linux Mint alongside Windows Boot Manager (เพื่อติดตั้ง Linux Mint เป็น Dual Boot กับ Windows 10)
+9. เลือกขนาดของพาร์ทิชั่นที่จะติดตั้ง Linux Mint หรือจะเลือกตามที่โปรแกรมกำหนดให้ก็ได้
+10. เลือกประเทศไทย
+11. ตั้งชื่อผู้ใช้งาน ชื่อคอมพิวเตอร์ และพาสเวิร์ดตามต้องการ รวมทั้งกำหนดว่าจะต้องใส่พาสเวิร์ดตอนล๊อกอิน Linux Mint หรือไม่
+12. เมื่อ Linux Mint ติดตั้งเสร็จเรียบร้อย ให้ถอด USB Stick ออก แล้วรีสตาร์ทคอมพิวเตอร์
+13. เลือกใช้งาน Linux Mint หรือ Windows 10 จาก Grub Menu
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mim321/image-LINUX-MINT/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### [Visit Linux Mint](https://distrowatch.com/table.php?distribution=mint) 
